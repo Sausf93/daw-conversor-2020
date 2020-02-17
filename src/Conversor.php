@@ -7,6 +7,11 @@ class Conversor{
 
         return $euros*0.88;
     }
+
+    public function eurosAYenes($euros){
+
+        return $euros*0.5;
+    }
 }
 
 
